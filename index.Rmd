@@ -50,13 +50,8 @@ This book may be redistributed following the terms of a [Creative Commons Attrib
 
 # Contributing Authors {-}
 ## Andrew Tatem  {-}
-## Doug Leisure {-}
-## Attila N. Lazar {-}
-## Claire Dooley {-}
-## Chris Jochem {-}
-## Edith Darin
-## Gianluca Boo
 ## Ortis Yankey
+## Assane Gadiaga
 
 
 ---

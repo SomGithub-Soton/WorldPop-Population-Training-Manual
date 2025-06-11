@@ -1,5 +1,4 @@
 --- 
---- 
 title: "WorldPop Population Modelling Training Manual, Vol. I"
 author: "WorldPop, University of Southampton"
 date: "`r format(Sys.time(), '%d %B %Y \n [%H:%M:%S]')`"

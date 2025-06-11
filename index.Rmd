@@ -10,7 +10,8 @@ site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
 bibliography: ["bib/book.bib","bib/BFAv1.bib","bib/top-down-tutorial.bib","bib/BUM_references.bib", 
-"bib/covs_sett_references.bib", "bib/NGA_v1.bib", "bib/DRC_v2.bib", "bib/SSD_v2.bib", "bib/GHAv1.bib","bib/weighted-likelihood-report.bib", "bib/ZMBv1.bib", "bib/CMRv1.bib"]
+"bib/covs_sett_references.bib", "bib/NGA_v1.bib", "bib/DRC_v2.bib", "bib/SSD_v2.bib", 
+"bib/GHAv1.bib","bib/weighted-likelihood-report.bib", "bib/ZMBv1.bib", "bib/CMRv1.bib"]
 link-citations: yes
 always_allow_html: true
 csl: worldpop.csl

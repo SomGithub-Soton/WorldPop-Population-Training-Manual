@@ -1,8 +1,8 @@
 book_filename: "bookdownproj"
 output_dir: docs
 delete_merged_file: true
-edit: https://github.com/SomGithub-Soton/worldpop_training_manual/edit/main/%s
-view: https://github.com/SomGithub-Soton/worldpop_training_manual/blob/main/%s
+edit: https://github.com/SomGithub-Soton/WorldPop-Population-Training-Manual/edit/main/%s
+view: https://github.com/SomGithub-Soton/WorldPop-Population-Training-Manual/blob/main/%s
 language:
   ui:
     chapter_name: "Chapter "

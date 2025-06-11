@@ -1,6 +1,7 @@
 book_filename: "bookdownproj"
 output_dir: docs
 delete_merged_file: true
+rmd_files: ["index.Rmd", "chapters/Module*/*.Rmd"]
 edit: https://github.com/SomGithub-Soton/WorldPop-Population-Training-Manual/edit/main/%s
 view: https://github.com/SomGithub-Soton/WorldPop-Population-Training-Manual/blob/main/%s
 language:

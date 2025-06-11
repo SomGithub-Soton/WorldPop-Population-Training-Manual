@@ -4,14 +4,11 @@ title: "WorldPop Population Modelling Training Manual, Vol. I"
 author: "WorldPop, University of Southampton"
 date: "`r format(Sys.time(), '%d %B %Y \n [%H:%M:%S]')`"
 description: "An open book of WorldPop methods to produce gridded population estimates."
-cover-image: "dat/wp_logo.png"
+cover-image: "figures/wp_logo.png"
 github-repo: wpgp/bookworm
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
-bibliography: ["bib/book.bib","bib/BFAv1.bib","bib/top-down-tutorial.bib","bib/BUM_references.bib", 
-"bib/covs_sett_references.bib", "bib/NGA_v1.bib", "bib/DRC_v2.bib", "bib/SSD_v2.bib", 
-"bib/GHAv1.bib","bib/weighted-likelihood-report.bib", "bib/ZMBv1.bib", "bib/CMRv1.bib"]
 link-citations: yes
 always_allow_html: true
 csl: worldpop.csl
@@ -42,18 +39,11 @@ When the notice above is removed, you will be free to copy and redistribute this
 
 <br>
 
-<a href="https://www.worldpop.org" target="_blank"><img src="dat/wp_logo.png" width="400" alt="WorldPop logo" style="display:block; margin-left: auto; margin-right:auto; width:50%;"/></a>
+<a href="https://www.worldpop.org" target="_blank"><img src="figures/wp_logo.png" width="400" alt="WorldPop logo" style="display:block; margin-left: auto; margin-right:auto; width:50%;"/></a>
 
 
 ## License {-}
 This book may be redistributed following the terms of a [Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0) License](https://creativecommons.org/licenses/by-nd/4.0/).
-
-
-# Contributing Authors {-}
-## Andrew Tatem  {-}
-## Ortis Yankey
-## Assane Gadiaga
-
 
 ---
 

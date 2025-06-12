@@ -2,8 +2,8 @@
 book_filename: "worldpop_book"
 output_dir: docs
 delete_merged_file: true
-#rmd_files: ["index.Rmd", "chapters/Module*/*.Rmd"]
-rmd_files: ["index.Rmd"]
+rmd_files: ["index.Rmd", "chapters/Module*/*.Rmd"]
+#rmd_files: ["index.Rmd"]
 #edit: https://github.com/SomGithub-Soton/WorldPop-Population-Training-Manual/edit/main/%s
 #view: https://github.com/SomGithub-Soton/WorldPop-Population-Training-Manual/blob/main/%s
 #language:

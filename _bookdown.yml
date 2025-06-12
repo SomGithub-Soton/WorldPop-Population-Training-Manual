@@ -1,5 +1,5 @@
 #book_filename: "bookdownproj"
-book_filename: "worldpop_book"
+book_filename: "testbook"
 output_dir: docs
 #delete_merged_file: true
 #rmd_files: ["index.Rmd", "chapters/Module*/*.Rmd"]

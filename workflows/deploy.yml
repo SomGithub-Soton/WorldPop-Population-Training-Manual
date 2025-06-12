@@ -26,9 +26,17 @@ jobs:
             curl -o worldpop.csl https://raw.githubusercontent.com/citation-style-language/styles/master/american-medical-association.csl
           fi
 
-      - name: Render book
+      - name: Render book (debug mode)
         run: |
-          Rscript -e 'bookdown::render_book("index.Rmd", "bookdown::gitbook")' 2>&1 | tee render-log.txt
+          Rscript -e 'bookdown::render_book("index.Rmd", "bookdown::gitbook")' 2>&1 | tee build-debug.log
+
+      - name: Show build log
+        run: cat build-debug.log
+
+      - name: Check for any HTML files
+        run: |
+          echo "ALL HTML files in project:"
+          find . -type f -name '*.html' -maxdepth 4
 
       - name: Check files in docs/
         run: |

@@ -1,5 +1,8 @@
 name: Build and Deploy Bookdown
-on: push
+
+on:
+  push:
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -18,7 +21,7 @@ jobs:
       - name: Install required packages
         run: |
           Rscript -e 'install.packages(c("bookdown", "rmarkdown", "knitr"))'
-          
+
       - name: Check for worldpop.csl
         run: |
           if [ ! -f "worldpop.csl" ]; then
@@ -52,7 +55,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
-
-      on:
-        push
-        workflow_dispatch:

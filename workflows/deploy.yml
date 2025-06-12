@@ -26,9 +26,9 @@ jobs:
             curl -o worldpop.csl https://raw.githubusercontent.com/citation-style-language/styles/master/american-medical-association.csl
           fi
 
-      - name: Render book
+      - name: Render book (Gitbook only)
         run: |
-          Rscript -e 'bookdown::render_book("index.Rmd", output_format = "all")'
+          Rscript -e 'bookdown::render_book("index.Rmd", "bookdown::gitbook")'
           
       - name: Verify docs/ exists
         run: |
@@ -43,3 +43,8 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
+
+      - name: Check files in docs/
+        run: |
+           echo "Files in docs:"
+           ls -la docs/

@@ -3,7 +3,7 @@ title: "WorldPop Population Modelling Training Manual, Vol. I"
 author: "WorldPop, University of Southampton"
 date: "`r Sys.Date()`"
 description: "An open book of WorldPop methods to produce gridded population estimates."
-cover-image: "figures/wp_logo.png"
+
 site: bookdown::bookdown_site
 output: 
   bookdown::gitbook:
@@ -18,6 +18,6 @@ documentclass: book
 
 # Hello Bookdown
 
-This is a minimal test book. It should generate `docs/index.html`.
+This is a minimal test book. 
 
 

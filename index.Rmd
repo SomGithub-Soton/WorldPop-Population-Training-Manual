@@ -26,7 +26,6 @@ Chris Nnanatu
 
 Andrew Tatem    
 
-
 # About this book {-}
 
 **Notice: This book is still being drafted! All text is subject to change. Please do not redistribute the code, text, images, tables, etc. until this notice has been removed. For more information about how to contribute to the book, refer to the <a href="https://github.com/wpgp/bookworm" target="_blank">bookworm repository</a> (scroll down to the "Organization" section of the README).**

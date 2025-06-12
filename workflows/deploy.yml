@@ -28,7 +28,7 @@ jobs:
 
       - name: Render book
         run: |
-          Rscript -e 'bookdown::render_book("index.Rmd", "bookdown::gitbook")'
+          Rscript -e 'bookdown::render_book("index.Rmd", "bookdown::gitbook")' 2>&1 | tee render-log.txt
 
       - name: Check files in docs/
         run: |

@@ -15,37 +15,7 @@ output:
 documentclass: book
 always_allow_html: true
 ---
-# Edited by {-}
+# Hello
 
-Layna Dennett
-
-Somnath Chaudhuri
-
-Chris Nnanatu
-
-Andrew Tatem    
-
-# About this book {-}
-
-**Notice: This book is still being drafted! All text is subject to change. Please do not redistribute the code, text, images, tables, etc. until this notice has been removed. For more information about how to contribute to the book, refer to the <a href="https://github.com/wpgp/bookworm" target="_blank">bookworm repository</a> (scroll down to the "Organization" section of the README).**
-
-This open book provides a guide to WorldPop's gridded population data sets and the methods used to create them. It was developed by the WorldPop Research Group within the Department of Geography and Environmental Science at the University of Southampton. Individual contributers, collaborators and funders are recognized within each chapter. Please refer to individual chapters for suggested citations or cite the whole book as:  
-
-> WorldPop. 2020. *WorldPop Book of Methods, Vol. I: Gridded Population Estimates*. WorldPop, University of Southampton. `r format(Sys.time(), "%d %B %Y")`. https://docs.worldpop.org.
-
-
-The source code for the book is available from WorldPop on GitHub:  <a href="https://github.com/wpgp/bookworm" target="_blank">https://github.com/wpgp/bookworm</a>.  
-
-When the notice above is removed, you will be free to copy and redistribute this book under the <a href="https://creativecommons.org/licenses/by-nd/4.0/" target="_blank">CC BY-ND 4.0</a> license.  
-
-<br>
-
-<a href="https://www.worldpop.org" target="_blank"><img src="figures/wp_logo.png" width="400" alt="WorldPop logo" style="display:block; margin-left: auto; margin-right:auto; width:50%;"/></a>
-
-
-## License {-}
-This book may be redistributed following the terms of a [Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0) License](https://creativecommons.org/licenses/by-nd/4.0/).
-
----
-
+This is a test to check if `index.html` is generated.
 

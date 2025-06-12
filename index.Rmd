@@ -4,11 +4,15 @@ author: "WorldPop, University of Southampton"
 date: "`r format(Sys.time(), '%d %B %Y \n [%H:%M:%S]')`"
 description: "An open book of WorldPop methods to produce gridded population estimates."
 cover-image: "figures/wp_logo.png"
-github-repo: wpgp/bookworm
 site: bookdown::bookdown_site
-output: bookdown::gitbook
+output: 
+  bookdown::gitbook:
+    config:
+      toc:
+        collapse: section
+        scroll_highlight: true
+    split_by: section
 documentclass: book
-link-citations: yes
 always_allow_html: true
 csl: worldpop.csl
 ---
@@ -46,5 +50,5 @@ This book may be redistributed following the terms of a [Creative Commons Attrib
 
 ---
 
-# Down the rabbit-hole
+# Module 1
 

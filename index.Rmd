@@ -50,5 +50,4 @@ This book may be redistributed following the terms of a [Creative Commons Attrib
 
 ---
 
-# Module 1
 
